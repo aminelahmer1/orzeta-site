@@ -26,7 +26,7 @@ $SOCIETE = [
 // Cartes du staff — lien : https://orzeta.com/carte.php?p=CLE
 $PERSONNES = [
     'olfa' => [
-        'nom' => 'Olfa BEN HAJEL', 'prenom' => 'Olfa', 'famille' => 'BEN HAJEL', 'prefixe' => '',
+        'nom' => 'Olfa BEN HAJEL', 'prenom' => 'Olfa', 'famille' => 'BEN HAJEL', 'prefixe' => 'Ing.',
         'poste' => ['fr' => 'Coordinatrice générale', 'en' => 'General Coordinator', 'ar' => 'المنسّقة العامّة'],
         'mobile' => '+216 92 300 800', 'fixe' => '', 'whatsapp' => '+216 92 300 800',
         'email' => 'contact@orzeta.com',
@@ -44,6 +44,13 @@ $PERSONNES = [
         'poste' => ['fr' => 'Responsable du développement commercial', 'en' => 'Business Development Executive', 'ar' => 'مسؤولة تطوير الأعمال'],
         'mobile' => '+216 98 780 838', 'fixe' => '', 'whatsapp' => '+216 98 780 838',
         'email' => 'sm@promedgroup.tn',
+        'adresses' => ['siege', 'usine'],
+    ],
+    'zina' => [
+        'nom' => 'Zina GUERMAZI', 'prenom' => 'Zina', 'famille' => 'GUERMAZI', 'prefixe' => 'PhD · Ing.',
+        'poste' => ['fr' => 'Responsable Management de la Qualité (RMQ)', 'en' => 'Quality Management Manager', 'ar' => 'مسؤولة إدارة الجودة'],
+        'mobile' => '+216 99 488 006', 'fixe' => '', 'whatsapp' => '+216 99 488 006',
+        'email' => 'contact@orzeta.com',
         'adresses' => ['siege', 'usine'],
     ],
     'mohamed' => [
