@@ -11,7 +11,7 @@ $ADRESSES = [
                 'rue' => 'Zen Building, Rue du Lac Tchad, Les Berges du Lac I', 'cp' => '1053', 'ville' => 'Tunis', 'pays' => 'Tunisia',
                 'gps' => '36.8387757,10.2404081'],   // PROMED Group, Immeuble ZEN, 4e étage
     'usine' => ['type' => ['fr' => 'Unité de production', 'en' => 'Production Facility', 'ar' => 'وحدة الإنتاج'],
-                'rue' => 'Mahdia Road Km 19', 'cp' => '3066', 'ville' => 'Sfax', 'pays' => 'Tunisia',
+                'rue' => 'Mahdia Road Km 19', 'cp' => '3064', 'ville' => 'Sfax', 'pays' => 'Tunisia',
                 'gps' => '34.884132,10.845287'],   // point exact de l'unité de production sur Google Maps
 ];
 
@@ -19,7 +19,7 @@ $ADRESSES = [
 $SOCIETE = [
     'nom' => 'Orzeta', 'prefixe' => '',
     'poste' => ['fr' => "Huile d'olive vierge extra de Tunisie", 'en' => 'Extra virgin olive oil from Tunisia', 'ar' => 'زيت زيتون بكر ممتاز من تونس'],
-    'mobile' => '+216 92 300 800', 'fixe' => '', 'whatsapp' => '+216 92 300 800',
+    'mobile' => '(+216) 92 300 800', 'fixe' => '(+216) 71 960 995', 'whatsapp' => '(+216) 92 300 800',
     'email' => 'contact@orzeta.com', 'adresses' => ['siege', 'usine'],
 ];
 
@@ -28,36 +28,36 @@ $PERSONNES = [
     'olfa' => [
         'nom' => 'Olfa BEN HAJEL', 'prenom' => 'Olfa', 'famille' => 'BEN HAJEL', 'prefixe' => 'Ing.',
         'poste' => ['fr' => 'Coordinatrice générale', 'en' => 'General Coordinator', 'ar' => 'المنسّقة العامّة'],
-        'mobile' => '+216 92 300 800', 'fixe' => '', 'whatsapp' => '+216 92 300 800',
-        'email' => 'contact@orzeta.com',
+        'mobile' => '(+216) 92 300 800', 'fixe' => '(+216) 71 960 995', 'whatsapp' => '(+216) 92 300 800',
+        'email' => 'sales@olived.tn',
         'adresses' => ['siege', 'usine'],
     ],
     'fatma' => [
         'nom' => 'Fatma KHEMAKHEM ZOUARI', 'prenom' => 'Fatma', 'famille' => 'KHEMAKHEM ZOUARI', 'prefixe' => '',
         'poste' => ['fr' => 'Conseillère de marque', 'en' => 'Brand Advisor', 'ar' => 'مستشارة العلامة التجارية'],
-        'mobile' => '+216 98 463 000', 'fixe' => '', 'whatsapp' => '+216 98 463 000',
+        'mobile' => '(+216) 98 463 000', 'fixe' => '(+216) 71 960 995', 'whatsapp' => '(+216) 98 463 000',
         'email' => 'fkz@promedgroup.tn',
         'adresses' => ['siege', 'usine'],
     ],
     'sonia' => [
         'nom' => 'Sonia MKAOUAR', 'prenom' => 'Sonia', 'famille' => 'MKAOUAR', 'prefixe' => '',
         'poste' => ['fr' => 'Responsable du développement commercial', 'en' => 'Business Development Executive', 'ar' => 'مسؤولة تطوير الأعمال'],
-        'mobile' => '+216 98 780 838', 'fixe' => '', 'whatsapp' => '+216 98 780 838',
+        'mobile' => '(+216) 98 780 838', 'fixe' => '(+216) 71 960 995', 'whatsapp' => '(+216) 98 780 838',
         'email' => 'sm@promedgroup.tn',
         'adresses' => ['siege', 'usine'],
     ],
     'zina' => [
-        'nom' => 'Zina GUERMAZI', 'prenom' => 'Zina', 'famille' => 'GUERMAZI', 'prefixe' => 'PhD · Ing.',
+        'nom' => 'Zina GUERMAZI', 'prenom' => 'Zina', 'famille' => 'GUERMAZI', 'prefixe' => 'PhD | Ing.',
         'poste' => ['fr' => 'Responsable Management de la Qualité (RMQ)', 'en' => 'Quality Management Manager', 'ar' => 'مسؤولة إدارة الجودة'],
-        'mobile' => '+216 99 488 006', 'fixe' => '', 'whatsapp' => '+216 99 488 006',
-        'email' => 'contact@orzeta.com',
+        'mobile' => '(+216) 99 488 006', 'fixe' => '(+216) 71 960 995', 'whatsapp' => '(+216) 99 488 006',
+        'email' => 'quality@olived.tn',
         'adresses' => ['siege', 'usine'],
     ],
     'mohamed' => [
         'nom' => 'Mohamed ZOUARI', 'prenom' => 'Mohamed', 'famille' => 'ZOUARI', 'prefixe' => '',
         'poste' => ['fr' => 'Président-directeur général', 'en' => 'CEO', 'ar' => 'الرئيس التنفيذي'],
-        'mobile' => '+216 98 462 000', 'fixe' => '', 'whatsapp' => '+216 98 462 000',
-        'email' => 'contact@orzeta.com',
+        'mobile' => '(+216) 98 462 000', 'fixe' => '(+216) 71 960 995', 'whatsapp' => '(+216) 98 462 000',
+        'email' => 'mz@olived.tn',
         'adresses' => ['siege', 'usine'],
     ],
 ];
@@ -109,6 +109,9 @@ $SVG = [
  'pin'  => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>',
  'wa'   => '<svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zM20.5 3.5A11.8 11.8 0 0 0 1.9 17.8L.2 24l6.4-1.7A11.8 11.8 0 0 0 24 12c0-3.2-1.2-6.1-3.5-8.5z"/></svg>',
 ];
+$SVG['flip'] = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-15.5 6.2M3 12A9 9 0 0 1 18.5 5.8"/><path d="M18 2v4h-4M6 22v-4h4"/></svg>';
+$SVG['plus'] = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>';
+$waNum = ltrim($num($P['whatsapp'] !== '' ? $P['whatsapp'] : $P['mobile']), '+');
 ?><!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -117,6 +120,8 @@ $SVG = [
 <title><?= h($titre) ?></title>
 <meta name="description" content="Orzeta, huile d'olive vierge extra de Tunisie. Coordonnées et contact."/>
 <meta name="robots" content="noindex"/>
+<meta name="format-detection" content="telephone=no, email=no, address=no, date=no"/>
+<meta name="x-apple-disable-message-reformatting"/>
 <meta name="theme-color" content="#153c1f"/>
 <meta property="og:title" content="<?= h($titre) ?>"/>
 <meta property="og:description" content="<?= h($estPersonne ? $P['poste']['en'] . ' · Orzeta' : "Huile d'olive vierge extra de Tunisie") ?>"/>
@@ -124,148 +129,192 @@ $SVG = [
 <link rel="icon" type="image/png" href="assets/images/logo-orzeta-orange.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,600;0,700;1,500&family=Nunito+Sans:wght@400;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,600;0,700;1,500&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"/>
 <style>
-:root{--vert:#153c1f;--vert2:#153c1f;--orange:#ea580d;--orange2:#c8460a;--creme:#f6eee2;--creme2:#ece0ce;--blanc:#fbf7f0;--texte:#152419;--gris:#5d615c;}
+:root{--vert:#153c1f;--vert-f:#0f2e17;--orange:#ea580d;--orange2:#c8460a;--creme:#f6eee2;--carte:#fbf6ee;--beige:#f3e3cf;--texte:#153c1f;}
 *{box-sizing:border-box;margin:0;padding:0;}
-html,body{background:var(--creme2);}
-body{font-family:'Nunito Sans',system-ui,sans-serif;color:var(--texte);min-height:100vh;display:flex;justify-content:center;padding:0 0 2rem;}
+.face a,.face a[href^="tel"],.face a[href^="mailto"],.face a[x-apple-data-detectors]{color:inherit !important;text-decoration:none !important;font:inherit !important;pointer-events:none;}
+html{background:var(--vert-f);}
+body{min-height:100vh;font-family:'Nunito Sans',system-ui,sans-serif;color:var(--creme);
+  background:radial-gradient(130% 55% at 50% 0%,#215030 0%,var(--vert) 55%,var(--vert-f) 100%) fixed;
+  display:flex;justify-content:center;padding:0 16px calc(28px + env(safe-area-inset-bottom));}
 html[dir="rtl"] body{font-family:'Noto Sans Arabic','Nunito Sans',sans-serif;}
-.carte{width:100%;max-width:440px;background:var(--creme);min-height:100vh;box-shadow:0 0 60px -20px rgba(15,45,23,.35);position:relative;overflow:hidden;}
-@media (min-width:480px){body{padding:2rem 1rem;}.carte{min-height:auto;border-radius:28px;}}
-.entete{background:radial-gradient(120% 90% at 50% 0%,#245433 0%,var(--vert) 60%,#0e2a15 100%);color:var(--creme);padding:1.2rem 1.4rem 5.5rem;position:relative;text-align:center;}
-.entete::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:60px;background:var(--creme);border-radius:50% 50% 0 0 / 100% 100% 0 0;}
-.langues{display:flex;justify-content:flex-end;gap:.35rem;}
-.langues button{background:rgba(246,238,226,.12);color:var(--creme);border:0;border-radius:999px;padding:.3rem .65rem;font:700 .72rem 'Nunito Sans',sans-serif;cursor:pointer;}
-.langues button.actif{background:var(--orange);color:var(--creme);}
-.logo{width:104px;height:auto;margin:1.1rem auto 0;display:block;}
-.slogan{margin-top:.9rem;font-family:'Literata',serif;font-style:italic;font-size:1.05rem;color:var(--creme);opacity:.92;}
-.bouteilles{position:relative;z-index:2;display:flex;justify-content:center;align-items:flex-end;margin-top:-5.2rem;height:210px;}
-.bouteilles img{height:100%;width:auto;margin:0 -1.9rem;filter:drop-shadow(0 12px 14px rgba(15,45,23,.25));}
-.bouteilles img:nth-child(1),.bouteilles img:nth-child(3){height:88%;}
-.bouteilles img:nth-child(2){position:relative;z-index:1;}
-.corps{padding:1.2rem 1.4rem 1.6rem;text-align:center;}
-.prefixe{font-size:.8rem;font-weight:700;color:var(--gris);letter-spacing:.08em;}
-h1{font-family:'Literata',serif;font-size:1.85rem;font-weight:700;line-height:1.15;color:var(--vert);}
-.poste{margin-top:.4rem;color:var(--orange);font-weight:800;font-size:.95rem;}
-.marque{margin-top:.6rem;font-size:.68rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gris);}
-.trait{width:44px;height:2px;border-radius:2px;background:var(--orange);margin:.9rem auto 0;}
-.actions{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin-top:1.5rem;}
-.action{display:flex;flex-direction:column;align-items:center;gap:.4rem;text-decoration:none;color:var(--texte);font-size:.72rem;font-weight:700;}
-.action .rond{width:56px;height:56px;border-radius:18px;background:var(--blanc);color:var(--vert);display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 1px rgba(234,88,13,.15),0 6px 16px -10px rgba(15,45,23,.4);transition:transform .2s ease;}
-.action:active .rond{transform:scale(.94);}
-.action svg{width:24px;height:24px;}
-.enregistrer{margin-top:1.5rem;display:flex;align-items:center;justify-content:center;gap:.6rem;width:100%;padding:1rem;border-radius:16px;background:var(--orange);color:var(--creme);text-decoration:none;font-weight:800;font-size:.95rem;box-shadow:0 12px 26px -14px rgba(200,70,10,.8);}
+.page{width:100%;max-width:460px;display:flex;flex-direction:column;align-items:center;}
+.logo{width:132px;height:auto;margin-top:34px;}
+.devise{margin-top:14px;font-size:.66rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;text-align:center;}
+html[dir="rtl"] .devise{letter-spacing:0;font-size:.9rem;}
+
+/* ---- Carte qui se retourne ---- */
+.scene{width:100%;margin-top:34px;perspective:1400px;cursor:pointer;-webkit-tap-highlight-color:transparent;outline:none;}
+.scene:focus-visible .face{box-shadow:0 0 0 3px var(--creme),0 24px 40px -18px rgba(0,0,0,.6);}
+.carte3d{position:relative;width:100%;aspect-ratio:1.9;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.3,.7,.2,1);}
+.scene.retournee .carte3d{transform:rotateY(180deg);}
+.scene.indice .carte3d{animation:indice 1.1s ease-in-out .9s 1;}
+@keyframes indice{0%,100%{transform:rotateY(0)}40%{transform:rotateY(-16deg)}70%{transform:rotateY(5deg)}}
+.face{position:absolute;inset:0;border-radius:14px;overflow:hidden;
+  backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 24px 40px -18px rgba(0,0,0,.6);container-type:inline-size;}
+.verso{transform:rotateY(180deg);}
+
+/* Recto — reprend la carte imprimée */
+.recto{background:#f8f4e8;color:var(--vert);display:flex;align-items:stretch;}
+.r-g{width:29%;flex-shrink:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4cqw;}
+.r-g img{width:64%;height:auto;}
+.r-g img.lg-olived{width:70%;}
+.face a.lien-olived{pointer-events:auto !important;text-decoration:none !important;color:var(--vert) !important;cursor:pointer;}
+.lien-olived small{text-decoration:none;}
+.lien-olived:active{opacity:.7;}
+.scene.retournee .lien-olived{pointer-events:none !important;}
+.r-g small{font-size:2.3cqw;font-weight:600;color:var(--vert);letter-spacing:.02em;direction:ltr;}
+.r-sep{width:1.5px;background:var(--orange);margin:7.5cqw 0;flex-shrink:0;}
+.r-d{flex:1;min-width:0;padding:4.6cqw 4cqw 4cqw 6.5cqw;display:flex;flex-direction:column;justify-content:center;font-size:calc(1cqw * var(--k,1));}
+html[dir="rtl"] .r-d{padding:4.6cqw 6.5cqw 4cqw 4cqw;}
+.nom{font-size:calc(4.3em * var(--kn,1));line-height:1.1;font-weight:800;color:var(--vert);white-space:nowrap;direction:ltr;unicode-bidi:isolate;}
+html[dir="rtl"] .nom{text-align:right;}
+.poste{margin-top:.15em;font-size:3.1em;line-height:1.2;font-weight:400;color:var(--vert);}
+.coord{list-style:none;margin-top:2.6em;display:grid;gap:.95em;}
+.coord li{display:flex;align-items:center;gap:1.1em;font-size:2.65em;font-weight:400;}
+.coord li span{direction:ltr;unicode-bidi:isolate;}
+.coord i{width:1.15em;display:flex;justify-content:center;color:var(--orange);flex-shrink:0;}
+.coord svg{width:1.05em;height:1.05em;}
+.adrs{margin-top:2.6em;display:grid;gap:1.4em;}
+.adr{display:flex;gap:1.1em;}
+.adr i{color:var(--orange);flex-shrink:0;width:2.65em;display:flex;justify-content:center;padding-top:.15em;}
+.adr i svg{width:2.65em;height:2.65em;fill:var(--orange);stroke:#f8f4e8;}
+.adr p{font-size:2.45em;line-height:1.35;}
+.adr p b{display:block;font-size:1.06em;font-weight:800;text-transform:uppercase;}
+.adr p span{display:block;direction:ltr;unicode-bidi:isolate;}
+html[dir="rtl"] .adr p span{text-align:right;}
+
+/* Verso — tout en vert, logo centré */
+.verso{background:var(--vert);display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 1px rgba(246,238,226,.14),0 24px 40px -18px rgba(0,0,0,.6);}
+.verso img{width:30%;height:auto;}
+
+/* Sous la carte */
+.astuce{margin-top:20px;display:flex;flex-direction:column;align-items:center;gap:8px;font-size:.95rem;text-align:center;background:none;border:0;color:var(--creme);font-family:inherit;cursor:pointer;}
+.astuce svg{width:26px;height:26px;color:var(--orange);transition:transform .8s ease;}
+.scene.retournee + .astuce svg{transform:rotate(180deg);}
+.actions{width:100%;margin-top:30px;display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
+.action{border:1.5px solid rgba(246,238,226,.75);border-radius:12px;padding:12px 2px 10px;display:flex;flex-direction:column;align-items:center;gap:8px;color:var(--creme);text-decoration:none;font-size:.78rem;font-weight:700;transition:background-color .2s ease,transform .15s ease;}
+.action:hover{background:rgba(246,238,226,.08);}
+.action:active{transform:scale(.96);}
+.action span.ic{width:40px;height:40px;border-radius:10px;background:var(--creme);color:var(--orange);display:flex;align-items:center;justify-content:center;}
+.action svg{width:21px;height:21px;}
+.action .ic svg[fill="#25D366"]{fill:var(--orange);}
+.enregistrer{width:100%;margin-top:12px;display:flex;align-items:center;justify-content:center;gap:.6rem;padding:15px;border-radius:12px;background:var(--orange);color:var(--creme);text-decoration:none;font-weight:800;font-size:.95rem;box-shadow:0 14px 26px -14px rgba(234,88,13,.9);}
 .enregistrer:active{background:var(--orange2);}
 .enregistrer svg{width:20px;height:20px;}
-.infos{margin-top:1.5rem;text-align:start;background:var(--blanc);border-radius:18px;padding:.4rem 1rem;box-shadow:inset 0 0 0 1px rgba(234,88,13,.12);}
-.info{display:flex;align-items:flex-start;gap:.8rem;padding:.85rem 0;text-decoration:none;color:var(--texte);}
-.info + .info{border-top:1px solid #f1e7d7;}
-.info svg{width:20px;height:20px;flex-shrink:0;color:var(--vert2);margin-top:.15rem;}
-.info small{display:block;font-size:.66rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);}
-.info b{font-weight:700;font-size:.95rem;}
-.info .adr{font-weight:600;font-size:.86rem;line-height:1.45;}
-.info .carte-lien{display:inline-block;margin-top:.25rem;font-size:.75rem;font-weight:700;color:var(--vert2);}
-.ltr{direction:ltr;unicode-bidi:embed;}
-html[dir="rtl"] .info .adr{direction:ltr;text-align:right;}
-.reseaux{display:flex;justify-content:center;gap:.7rem;margin-top:1.3rem;}
-.reseaux a{width:44px;height:44px;border-radius:50%;background:var(--blanc);display:flex;align-items:center;justify-content:center;color:var(--vert);box-shadow:inset 0 0 0 1px rgba(234,88,13,.15);}
-.reseaux svg{width:20px;height:20px;}
-.partager{margin-top:1.3rem;background:none;border:0;color:var(--vert2);font:700 .85rem inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px;}
-.pied{margin-top:1.4rem;font-size:.72rem;color:var(--gris);}
+.cartes-lieux{width:100%;margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.lieu{display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:12px;background:rgba(246,238,226,.07);color:var(--creme);text-decoration:none;font-size:.74rem;line-height:1.3;}
+.lieu svg{width:18px;height:18px;flex-shrink:0;color:var(--orange);}
+.lieu b{display:block;font-weight:800;}
+.reseaux{display:flex;justify-content:center;gap:.7rem;margin-top:18px;}
+.reseaux a{width:42px;height:42px;border-radius:50%;border:1.5px solid rgba(246,238,226,.6);display:flex;align-items:center;justify-content:center;color:var(--creme);}
+.reseaux svg{width:19px;height:19px;}
+.partager{margin-top:20px;background:none;border:0;color:var(--creme);opacity:.85;font:700 .85rem inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px;}
+.pied{margin-top:12px;font-size:.72rem;opacity:.55;}
+@media (prefers-reduced-motion:reduce){.carte3d{transition:none}.scene.indice .carte3d{animation:none}}
+@media (min-width:600px){body{padding-top:20px}}
 </style>
 </head>
 <body>
-<main class="carte">
-  <header class="entete">
-    <div class="langues" role="group" aria-label="Langue">
-      <button type="button" data-lang="fr" class="actif">FR</button>
-      <button type="button" data-lang="en">EN</button>
-      <button type="button" data-lang="ar" lang="ar">ع</button>
+<main class="page">
+  <img class="logo" src="assets/images/logo-orzeta-orange.png" alt="Orzeta" width="400" height="320"/>
+  <p class="devise">Extra virgin olive oil</p>
+
+  <div class="scene indice" id="scene" role="button" tabindex="0" aria-pressed="false" aria-label="Retourner la carte">
+    <div class="carte3d">
+      <!-- Recto : comme la carte imprimée -->
+      <section class="face recto" aria-hidden="false">
+        <a class="r-g lien-olived" href="https://www.olived.tn/" target="_blank" rel="noopener">
+          <img src="assets/images/logo-olived.png" alt="Olived" class="lg-olived"/>
+          <small>www.olived.tn</small>
+        </a>
+        <span class="r-sep" aria-hidden="true"></span>
+        <div class="r-d" id="r-d">
+          <?php if ($estPersonne): ?>
+            <p class="nom"><?= h(trim($P['prefixe'] . ' ' . $P['nom'])) ?></p>
+          <?php else: ?>
+            <p class="nom">ORZETA</p>
+          <?php endif; ?>
+          <p class="poste"><?= h($P['poste']['en']) ?></p>
+          <ul class="coord">
+            <?php if ($P['mobile'] !== ''): ?><li><i><?= $SVG['mob'] ?></i><span><?= h($P['mobile']) ?></span></li><?php endif; ?>
+            <?php if ($P['fixe'] !== ''): ?><li><i><?= $SVG['tel'] ?></i><span><?= h($P['fixe']) ?></span></li><?php endif; ?>
+            <li><i><?= $SVG['mail'] ?></i><span><?= h($P['email']) ?></span></li>
+          </ul>
+          <?php if ($P['adresses']): ?>
+          <div class="adrs">
+            <?php foreach ($P['adresses'] as $a): $A = $ADRESSES[$a];
+              $fin = $A['cp'] . ' ' . $A['ville'] . ', ' . $A['pays'];
+              $pos = strrpos($A['rue'], ',');
+              if ($pos !== false && substr_count($A['rue'], ',') >= 2) { $l1 = substr($A['rue'], 0, $pos + 1); $l2 = trim(substr($A['rue'], $pos + 1)) . ', ' . $fin; }
+              else { $l1 = $A['rue'] . ', ' . $fin; $l2 = ''; } ?>
+            <div class="adr"><i><?= $SVG['pin'] ?></i><p><b><?= h($A['type']['en']) ?></b><span><?= h($l1) ?></span><?php if ($l2 !== ''): ?><span><?= h($l2) ?></span><?php endif; ?></p></div>
+            <?php endforeach; ?>
+          </div>
+          <?php endif; ?>
+        </div>
+      </section>
+      <!-- Verso : tout vert, logo centré -->
+      <section class="face verso" aria-hidden="true">
+        <img src="assets/images/logo-orzeta-orange.png" alt="Orzeta"/>
+      </section>
     </div>
-    <img class="logo" src="assets/images/logo-orzeta-orange.png" alt="Orzeta"/>
-    <p class="slogan" data-t="slogan">Née sous le soleil méditerranéen.</p>
-  </header>
-  <div class="bouteilles" aria-hidden="true">
-    <img src="assets/images/sun-marasca-1l.webp" alt=""/>
-    <img src="assets/images/grove-marasca-1l.webp" alt=""/>
-    <img src="assets/images/organic-marasca-1l.webp" alt=""/>
   </div>
-  <section class="corps">
-    <?php if ($estPersonne): ?>
-      <?php if ($P['prefixe'] !== ''): ?><p class="prefixe ltr"><?= h($P['prefixe']) ?></p><?php endif; ?>
-      <h1><?= h($P['nom']) ?></h1>
-      <p class="poste" data-t="poste"><?= h($P['poste']['fr']) ?></p>
-      <p class="marque">Orzeta · Sun · Grove · Organic</p>
-      <div class="trait"></div>
-    <?php else: ?>
-      <h1>Orzeta</h1>
-      <p class="poste" data-t="poste"><?= h($P['poste']['fr']) ?></p>
-      <p class="marque">Sun · Grove · Organic</p>
-      <div class="trait"></div>
-    <?php endif; ?>
+  <button class="astuce" type="button" id="astuce"><?= $SVG['flip'] ?><span id="astuce-txt">Touchez la carte pour découvrir ORZETA</span></button>
 
-    <nav class="actions">
-      <a class="action" href="tel:<?= h($num($P['mobile'])) ?>"><span class="rond"><?= $SVG['tel'] ?></span><span data-t="appeler">Appeler</span></a>
-      <a class="action" href="https://wa.me/<?= h(ltrim($num($P['whatsapp']), '+')) ?>" target="_blank" rel="noopener"><span class="rond"><?= $SVG['wa'] ?></span><span>WhatsApp</span></a>
-      <a class="action" href="mailto:<?= h($P['email']) ?>"><span class="rond"><?= $SVG['mail'] ?></span><span>Email</span></a>
-      <a class="action" href="<?= h($SITE) ?>"><span class="rond"><?= $SVG['web'] ?></span><span data-t="site">Site web</span></a>
-    </nav>
+  <nav class="actions">
+    <a class="action" href="tel:<?= h($num($P['mobile'])) ?>"><span class="ic"><?= $SVG['mob'] ?></span><span>Appeler</span></a>
+    <a class="action" href="https://wa.me/<?= h($waNum) ?>" target="_blank" rel="noopener"><span class="ic"><?= $SVG['wa'] ?></span><span>WhatsApp</span></a>
+    <a class="action" href="mailto:<?= h($P['email']) ?>"><span class="ic"><?= $SVG['mail'] ?></span><span>Email</span></a>
+    <a class="action" href="<?= h($SITE) ?>"><span class="ic"><?= $SVG['web'] ?></span><span>Site web</span></a>
+  </nav>
+  <a class="enregistrer" href="<?= h($lienVcf) ?>"><?= $SVG['plus'] ?><span>Enregistrer le contact</span></a>
 
-    <a class="enregistrer" href="<?= h($lienVcf) ?>"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg><span data-t="enregistrer">Enregistrer le contact</span></a>
+  <?php if ($P['adresses']): ?>
+  <div class="cartes-lieux">
+    <?php foreach ($P['adresses'] as $a): $A = $ADRESSES[$a]; $plein = !empty($A['gps']) ? $A['gps'] : $A['rue'] . ', ' . $A['cp'] . ' ' . $A['ville'] . ', ' . $A['pays']; ?>
+    <a class="lieu" href="https://www.google.com/maps/search/?api=1&amp;query=<?= h(urlencode($plein)) ?>" target="_blank" rel="noopener"><?= $SVG['pin'] ?><span><b><?= h($A['type']['fr']) ?></b><span>Voir sur la carte</span></span></a>
+    <?php endforeach; ?>
+  </div>
+  <?php endif; ?>
 
-    <div class="infos">
-      <a class="info" href="tel:<?= h($num($P['mobile'])) ?>"><?= $SVG['mob'] ?><span><small data-t="mobile">Mobile</small><b class="ltr"><?= h($P['mobile']) ?></b></span></a>
-      <?php if ($P['fixe'] !== ''): ?>
-      <a class="info" href="tel:<?= h($num($P['fixe'])) ?>"><?= $SVG['tel'] ?><span><small data-t="fixe">Téléphone fixe</small><b class="ltr"><?= h($P['fixe']) ?></b></span></a>
-      <?php endif; ?>
-      <a class="info" href="mailto:<?= h($P['email']) ?>"><?= $SVG['mail'] ?><span><small>Email</small><b class="ltr"><?= h($P['email']) ?></b></span></a>
-      <a class="info" href="<?= h($SITE) ?>"><?= $SVG['web'] ?><span><small data-t="site">Site web</small><b class="ltr">orzeta.com</b></span></a>
-      <?php foreach ($P['adresses'] as $a): $A = $ADRESSES[$a]; $plein = !empty($A['gps']) ? $A['gps'] : $A['rue'] . ', ' . $A['cp'] . ' ' . $A['ville'] . ', ' . $A['pays']; ?>
-      <div class="info"><?= $SVG['pin'] ?><span><small data-adr='<?= h(json_encode($A['type'], JSON_UNESCAPED_UNICODE)) ?>'><?= h($A['type']['fr']) ?></small><span class="adr"><?= h($A['rue']) ?>, <?= h($A['cp']) ?> <?= h($A['ville']) ?>, <?= h($A['pays']) ?></span><br/><a class="carte-lien" href="https://www.google.com/maps/search/?api=1&amp;query=<?= h(urlencode($plein)) ?>" target="_blank" rel="noopener" data-t="itineraire">Voir sur la carte</a></span></div>
-      <?php endforeach; ?>
-      <?php if (!$P['adresses']): ?>
-      <div class="info"><?= $SVG['pin'] ?><span><small data-t="adresse">Adresse</small><b data-t="tunisie">Tunisie</b></span></div>
-      <?php endif; ?>
-    </div>
+  <?php if ($INSTAGRAM !== '' || $FACEBOOK !== ''): ?>
+  <div class="reseaux">
+    <?php if ($INSTAGRAM !== ''): ?><a href="<?= h($INSTAGRAM) ?>" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a><?php endif; ?>
+    <?php if ($FACEBOOK !== ''): ?><a href="<?= h($FACEBOOK) ?>" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg></a><?php endif; ?>
+  </div>
+  <?php endif; ?>
 
-    <?php if ($INSTAGRAM !== '' || $FACEBOOK !== ''): ?>
-    <div class="reseaux">
-      <?php if ($INSTAGRAM !== ''): ?><a href="<?= h($INSTAGRAM) ?>" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a><?php endif; ?>
-      <?php if ($FACEBOOK !== ''): ?><a href="<?= h($FACEBOOK) ?>" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg></a><?php endif; ?>
-    </div>
-    <?php endif; ?>
-
-    <button class="partager" type="button" id="partager" data-t="partager">Partager cette carte</button>
-    <p class="pied">© <?= date('Y') ?> Orzeta</p>
-  </section>
+  <button class="partager" type="button" id="partager">Partager cette carte</button>
+  <p class="pied">© <?= date('Y') ?> Orzeta</p>
 </main>
 <script>
-var POSTE = <?= json_encode($P['poste'], JSON_UNESCAPED_UNICODE) ?>;
-var T = {
-  fr: { slogan: 'Née sous le soleil méditerranéen.', appeler: 'Appeler', site: 'Site web', enregistrer: 'Enregistrer le contact',
-        mobile: 'Mobile', fixe: 'Téléphone fixe', adresse: 'Adresse', tunisie: 'Tunisie', itineraire: 'Voir sur la carte', partager: 'Partager cette carte' },
-  en: { slogan: 'Born under the Mediterranean sun.', appeler: 'Call', site: 'Website', enregistrer: 'Save contact',
-        mobile: 'Mobile', fixe: 'Office phone', adresse: 'Address', tunisie: 'Tunisia', itineraire: 'View on map', partager: 'Share this card' },
-  ar: { slogan: 'وُلدت تحت شمس المتوسط.', appeler: 'اتصال', site: 'الموقع', enregistrer: 'حفظ جهة الاتصال',
-        mobile: 'الجوّال', fixe: 'الهاتف الثابت', adresse: 'العنوان', tunisie: 'تونس', itineraire: 'عرض على الخريطة', partager: 'مشاركة هذه البطاقة' }
-};
-function langue(l) {
-  document.documentElement.lang = l;
-  document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
-  document.querySelectorAll('[data-t]').forEach(function (el) {
-    var k = el.getAttribute('data-t');
-    if (k === 'poste') { el.textContent = POSTE[l] || POSTE.fr; }
-    else if (T[l][k]) { el.textContent = T[l][k]; }
-  });
-  document.querySelectorAll('[data-adr]').forEach(function (el) { var t = JSON.parse(el.getAttribute('data-adr')); el.textContent = t[l] || t.fr; });
-  document.querySelectorAll('.langues button').forEach(function (b) { b.classList.toggle('actif', b.getAttribute('data-lang') === l); });
-  try { localStorage.setItem('orzeta_lang', l); } catch (e) {}
+var scene = document.getElementById('scene');
+var ASTUCE = ['Touchez la carte pour découvrir ORZETA', 'Touchez pour revenir au contact'];
+
+// Réduit le texte du recto si une info longue déborde (noms ou postes longs)
+function ajusterRecto() {
+  var r = document.getElementById('r-d'), k = 1, n = r.querySelector('.nom'), kn = 1;
+  r.style.setProperty('--k', 1); n.style.setProperty('--kn', 1);
+  while (n.scrollWidth > n.clientWidth + 1 && kn > 0.6) { kn -= 0.03; n.style.setProperty('--kn', kn.toFixed(2)); }
+  while (r.scrollHeight > r.clientHeight + 1 && k > 0.72) { k -= 0.04; r.style.setProperty('--k', k.toFixed(2)); }
 }
-document.querySelectorAll('.langues button').forEach(function (b) { b.addEventListener('click', function () { langue(b.getAttribute('data-lang')); }); });
-var depart = 'fr';
-try { depart = localStorage.getItem('orzeta_lang') || (navigator.language || 'fr').slice(0, 2); } catch (e) {}
-langue(T[depart] ? depart : 'fr');
+function retourner() {
+  scene.classList.remove('indice');
+  var dos = scene.classList.toggle('retournee');
+  document.getElementById('astuce-txt').textContent = ASTUCE[dos ? 1 : 0];
+  scene.setAttribute('aria-pressed', dos ? 'true' : 'false');
+  scene.querySelector('.recto').setAttribute('aria-hidden', dos ? 'true' : 'false');
+  scene.querySelector('.verso').setAttribute('aria-hidden', dos ? 'false' : 'true');
+}
+scene.addEventListener('click', function (e) { if (e.target.closest('.lien-olived')) { return; } retourner(); });
+scene.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); retourner(); } });
+document.getElementById('astuce').addEventListener('click', retourner);
+ajusterRecto();
+window.addEventListener('resize', ajusterRecto);
+if (document.fonts && document.fonts.ready) { document.fonts.ready.then(ajusterRecto); }
+
 document.getElementById('partager').addEventListener('click', function () {
   var url = location.href.replace(/[&?]vcf=1/, '');
   if (navigator.share) { navigator.share({ title: document.title, url: url }).catch(function () {}); }
