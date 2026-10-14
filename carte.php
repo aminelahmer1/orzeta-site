@@ -140,12 +140,13 @@ body{min-height:100vh;font-family:'Nunito Sans',system-ui,sans-serif;color:var(-
   display:flex;justify-content:center;padding:0 16px calc(28px + env(safe-area-inset-bottom));}
 html[dir="rtl"] body{font-family:'Noto Sans Arabic','Nunito Sans',sans-serif;}
 .page{width:100%;max-width:460px;display:flex;flex-direction:column;align-items:center;}
-.logo{width:132px;height:auto;margin-top:34px;}
-.devise{margin-top:14px;font-size:.66rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;text-align:center;}
+.tete{margin-top:34px;width:150px;display:flex;flex-direction:column;align-items:center;}
+.logo{width:100%;height:auto;display:block;}
+.devise{margin-top:12px;font-size:.55rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;white-space:nowrap;text-indent:.2em;}
 html[dir="rtl"] .devise{letter-spacing:0;font-size:.9rem;}
 
 /* ---- Carte qui se retourne ---- */
-.scene{width:100%;margin-top:34px;perspective:1400px;cursor:pointer;-webkit-tap-highlight-color:transparent;outline:none;}
+.scene{width:100%;margin-top:46px;perspective:1400px;cursor:pointer;-webkit-tap-highlight-color:transparent;outline:none;}
 .scene:focus-visible .face{box-shadow:0 0 0 3px var(--creme),0 24px 40px -18px rgba(0,0,0,.6);}
 .carte3d{position:relative;width:100%;aspect-ratio:1.9;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.3,.7,.2,1);}
 .scene.retournee .carte3d{transform:rotateY(180deg);}
@@ -197,7 +198,7 @@ html[dir="rtl"] .adr p span{text-align:right;}
 .action{border:1.5px solid rgba(246,238,226,.75);border-radius:12px;padding:12px 2px 10px;display:flex;flex-direction:column;align-items:center;gap:8px;color:var(--creme);text-decoration:none;font-size:.78rem;font-weight:700;transition:background-color .2s ease,transform .15s ease;}
 .action:hover{background:rgba(246,238,226,.08);}
 .action:active{transform:scale(.96);}
-.action span.ic{width:40px;height:40px;border-radius:10px;background:var(--creme);color:var(--orange);display:flex;align-items:center;justify-content:center;}
+.action span.ic{width:40px;height:40px;border-radius:10px;background:var(--vert);box-shadow:inset 0 0 0 1px rgba(246,238,226,.22);color:var(--orange);display:flex;align-items:center;justify-content:center;}
 .action svg{width:21px;height:21px;}
 .action .ic svg[fill="#25D366"]{fill:var(--orange);}
 .enregistrer{width:100%;margin-top:12px;display:flex;align-items:center;justify-content:center;gap:.6rem;padding:15px;border-radius:12px;background:var(--orange);color:var(--creme);text-decoration:none;font-weight:800;font-size:.95rem;box-shadow:0 14px 26px -14px rgba(234,88,13,.9);}
@@ -218,8 +219,10 @@ html[dir="rtl"] .adr p span{text-align:right;}
 </head>
 <body>
 <main class="page">
-  <img class="logo" src="assets/images/logo-orzeta-orange.png" alt="Orzeta" width="400" height="320"/>
-  <p class="devise">Extra virgin olive oil</p>
+  <div class="tete">
+    <img class="logo" src="assets/images/logo-orzeta-orange.png" alt="Orzeta" width="480" height="370"/>
+    <p class="devise" id="devise">Extra virgin olive oil</p>
+  </div>
 
   <div class="scene indice" id="scene" role="button" tabindex="0" aria-pressed="false" aria-label="Retourner la carte">
     <div class="carte3d">
@@ -312,6 +315,18 @@ scene.addEventListener('click', function (e) { if (e.target.closest('.lien-olive
 scene.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); retourner(); } });
 document.getElementById('astuce').addEventListener('click', retourner);
 ajusterRecto();
+// « EXTRA VIRGIN OLIVE OIL » exactement de la largeur du logo
+function ajusterDevise() {
+  var d = document.getElementById('devise'), w = d.parentNode.clientWidth, ls = 0.12, fs = 0.6, i;
+  for (i = 0; i < 40; i++) {
+    d.style.letterSpacing = ls + 'em'; d.style.textIndent = ls + 'em';
+    var r = d.scrollWidth / w;
+    if (Math.abs(r - 1) < 0.01) { break; }
+    fs = fs / r; d.style.fontSize = fs + 'rem';
+  }
+}
+ajusterDevise();
+if (document.fonts && document.fonts.ready) { document.fonts.ready.then(ajusterDevise); }
 window.addEventListener('resize', ajusterRecto);
 if (document.fonts && document.fonts.ready) { document.fonts.ready.then(ajusterRecto); }
 
