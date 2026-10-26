@@ -53,6 +53,13 @@ $PERSONNES = [
         'email' => 'quality@olived.tn',
         'adresses' => ['siege', 'usine'],
     ],
+    'khadija' => [
+        'nom' => 'Khadija ZOUARI', 'prenom' => 'Khadija', 'famille' => 'ZOUARI', 'prefixe' => '',
+        'poste' => ['fr' => 'Responsable du développement commercial Asie', 'en' => 'Asia Business Development Manager', 'ar' => 'مسؤولة تطوير الأعمال في آسيا'],
+        'mobile' => '+86 171 4007 2084', 'fixe' => '(+216) 71 960 995', 'whatsapp' => '+86 171 4007 2084',
+        'email' => 'kz@promedgroup.tn',
+        'adresses' => ['siege', 'usine'],
+    ],
     'mohamed' => [
         'nom' => 'Mohamed ZOUARI', 'prenom' => 'Mohamed', 'famille' => 'ZOUARI', 'prefixe' => '',
         'poste' => ['fr' => 'Président-directeur général', 'en' => 'CEO', 'ar' => 'الرئيس التنفيذي'],
